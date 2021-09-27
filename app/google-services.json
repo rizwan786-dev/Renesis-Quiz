@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792154514524",
+    "project_id": "joke-application-renesis-98bf0",
+    "storage_bucket": "joke-application-renesis-98bf0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792154514524:android:ef823789277af0634eb299",
+        "android_client_info": {
+          "package_name": "com.renesistech.jokeapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792154514524-d1g7634jt2jdgti3ppaoqe2a5cm92jhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhBalRE_1cAp3YquSw4yMpuwD46gPC5JQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792154514524-d1g7634jt2jdgti3ppaoqe2a5cm92jhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<resources>
+
+    <style name="AppTheme" parent="BaseTheme">
+        <item name="colorPrimaryDark">@color/teal_700</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">@color/teal_700</item>
+        <item name="android:dialogTheme">@style/Dialog.Theme</item>
+        <item name="android:textColor">@android:color/white</item>
+<!--        <item name="android:background">@android:color/black</item>-->
+    </style>
+
+    <style name="EditText.White" parent="@style/AppTheme">
+        <!--<item name="colorControlActivated">@android:color/white</item>-->
+        <item name="colorControlHighlight">@android:color/white</item>
+        <item name="colorControlNormal">@color/teal_200</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="Dialog.Theme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/teal_700</item>
+    </style>
+
+    <style name="listview_items">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:background">@drawable/round_gradient_button</item>
+        <item name="android:layout_marginLeft">@dimen/_20sdp</item>
+        <item name="android:layout_marginRight">@dimen/_20sdp</item>
+        <item name="android:layout_marginTop">@dimen/_20sdp</item>
+    </style>
+
+    <style name="text_font">
+        <item name="android:fontFamily">@font/century_gothic</item>
+    </style>
+
+
+</resources>
